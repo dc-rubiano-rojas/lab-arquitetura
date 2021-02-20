@@ -14,6 +14,14 @@ public class Employee {
     private String address;
     private String sex;
 
+    public Employee () {}
+
+    public Employee (String name, String address, String sex) {
+        this.name = name;
+        this.address = address;
+        this.sex = sex;
+    }
+
     public Long getId() {
         return id;
     }
